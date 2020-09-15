@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portifolio</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu()">Inicio</a></li>
+            <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+            <li><a href="#service" onclick="toggleMenu()">Serviços</a></li>
+            <li><a href="#work" onclick="toggleMenu()">Trabalhos</a></li>
+            <li><a href="#testemonial" onclick="toggleMenu()">Depoimentos</a></li>
+            <li><a href="https://kishi.netlify.app/" target="_blank">Blog</a></li>            
+            <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Olá,<br>Eu sou <span>Renato Kishi</span></h2>
+            <h3>Eu sou programador</h3>
+            <a href="#about" class="btn">Saiba mais :) </a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Sobre mim</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Eu sou programador</h3>
+                <p>Sou apenas um profissional de tecnologia da informação que se intitula programador, apesar de já ter sido chamado de analista, líder, gerente e arquiteto de projetos, entusiasta por tecnologia, com alguns anos de experiência quem tem como hobby a própria profissão.</p>
+                    <p>
+                    Não tenho medo de abraçar o desconhecido, pois, confio em mim, qualquer desafio, mesmo sendo a princípio assustador, dará bons frutos com o tempo.
+                    Acostumado com gestão de projetos e pessoas, resolvendo conflitos, buscando soluções simples.
+                    </p> 
+
+                    <p>Sua tarefa é descobrir o seu trabalho e, então, com todo o coração, dedicar-se a ele.
+                    </p>
+                    <p>Buda</p>
+            </div>
+            <div class="w50">
+                <img src="images/img1.jpg" alt="" class="img">
+            </div>
+        </div>
+
+    </section>
+    <section class="services" id="service">
+        <div class="heading white">
+            <h2>Meus Serviços</h2>
+            <p>Tecnologias e habilidades adquiridas</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="images/icon1.png" alt="">
+                <h2>Frontend</h2>
+                <p>Atualmente atuo com o desenvolvimento com React uma super biblioteca mantida pelo Facebook e a mais querida entre os desenvolvedores, não faço sites, meu foco sempre foi aplicações administrativas com base em dados</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon2.png" alt="">
+                <h2>Backend</h2>
+                <p>Atuei por varios anos com .net e c#, atualmente trabalho com node, banco de dados nosql, graphql, são inumeras as opções que o desenvolvimento javascript open source nos porpociona</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon3.png" alt="">
+                <h2>Mobile App</h2>
+                <p>Experiência com Ionic e React Native e atualmente estudo e me entusiasmando com flutter</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon5.png" alt="">
+                <h2>Analista de sistemas</h2>
+                <p>Era o nome da profissao que usava antigamente que se referia a um programador que fazia o levantamento dos processos, tinha experiência com banco de dados, linguagem de programação, testava e as vezes atendia usuarios.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="images/icon6.png" alt="">
+                <h2>Gestão de projetos</h2>
+                <p>Tenho experiência em levantamento de processos, tendo atuado com gestão de projetos e pessoas em Bancos e Prefeituras</p>
+            </div>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Últimos Trabalhos</h2>
+            <p>xEmpresas que atuei com desenvolvimento de sistemas</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="images/empresa1.png" alt="">
+
+            </div>
+            <div class="workBx">
+                <img src="images/empresa5.png" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/empresa8.png" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/empresa2.png" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/empresa3.png" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/empresa6.png" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/empresa7.png" alt="">
+            </div>
+            <div class="workBx">
+                <img src="images/empresa4.png" alt="">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#testemonial" class="btn">Veja Mais</a>
+        </div>
+
+    </section>
+
+    <section class="testimonial" id="testemonial">
+        <div class="heading">
+            <h2>Depoimentos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quia itaque sed quae, molestiae
+                    omnis, voluptates, beatae dignissimos natus labore delectus? Harum consequuntur sunt, nulla nostrum
+                    deserunt sequi eum excepturi.</p>
+                <h3>Alguem famoso <br><span>Programador</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quia itaque sed quae, molestiae
+                    omnis, voluptates, beatae dignissimos natus labore delectus? Harum consequuntur sunt, nulla nostrum
+                    deserunt sequi eum excepturi.</p>
+                <h3>Alguem famoso <br><span>Programador</span></h3>
+            </div>
+
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contate me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Informações de contato</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Endereço</h3>
+                            <p>Rua Loren Ipsum ,<br> Elit Road, <br> 533453 </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Telefone</h3>
+                            <p>+55 11 2233-4455 </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>email</h3>
+                            <p>developer.kishi@gmail.com </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form action="">
+                    <h3>Mensagem </h3>
+                    <input type="text" name="" placeholder="Nome completo">
+                    <input type="email" name="" placeholder="e-mail">
+                    <textarea placeholder="Sua mensagem">
+                    </textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright All Right Reserved</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0)
+        });
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active')
+
+        }
+    </script>
+</body>
+
+</html>
